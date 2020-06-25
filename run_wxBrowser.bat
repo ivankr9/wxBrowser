@@ -1,0 +1,1 @@
+%~dp0\Python38\python.exe %~dp0\wxBrowser.py

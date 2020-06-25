@@ -1,0 +1,31 @@
+-c c1_CATEGORY1 c2_CATEGORY2 c3_CATEGORY3 c4_CATEGORY4 c5_CATEGORY5 c6_CATEGORY6
+
+#Environments
+#<APP_PATH> is current directory for this app
+#<PYTHON_INTERP> is current interpreter
+
+-e <PYTHON_INTERP_WIN>=C:/Python27/python.exe
+-e <PYTHON_INTERP_LIN>=python3
+-e <PYFOLDER>=D:/snap_shot_window/asset_file_browser_wx/wx_probes
+-e <DPROJ>=D:/hProjects
+
+#ENDEnvironments
+
+#Tools
+
+-tw <APP_PATH>/bin_portables/FPIC_sc100.exe <SEL_ITEMS>|||makeCaptureIco c1_c2_c3_c5_c6 156_123_46|||<<   Launch exefile for windows>>
+
+-tw <PYTHON_INTERP> <APP_PATH>/bin_portables/test.py <SEL_ITEMS>|||test_py c1_с2_c3_c4_c5_c6 235_145_167|||<<  test launch button visibility for Windows>>
+-tl <PYTHON_INTERP> <APP_PATH>/bin_portables/test.py <SEL_ITEMS>|||test_py c1_с2_c3_c4_c5_c6 12_15_88|||<<  test launch button visibility for Linux>>
+
+#ENDTools
+
+#Users fisrtname__lastname||||ComputerName__username
+#mod 
+
+-u Dirty__Morty(mod)|||DESKTOP-1E6SUVN__ivank
+-u Terario__Rick(rig)|||PC_compose__katy
+
+#anim
+
+#ENDUsers
