@@ -1,7 +1,7 @@
 # wxBrowser
 File folder/asset browser for work with 3d contents
 
-requirements Python with wxphenix and PIL
+requirements Python with wxPhoenix and PIL
 
 status work in progress
 
